@@ -1,15 +1,5 @@
 $(document).ready(function() {
 
-  // var listaSpesa = [
-  //   "Latte",
-  //   "Cereali",
-  //   "Birra",
-  //   "Pane",
-  // ];
-
-
-
-
   // Al click del bottone l'utente può inserire articoli nella lista della spesa
   $("button").click(
     function() {

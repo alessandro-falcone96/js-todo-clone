@@ -29,7 +29,15 @@ $(document).ready(function() {
 
       }
 
+      // Svuoto la lista
       listaSpesa = [];
+
+      // Al click della X l'utente cancella l'articolo selezionato
+      $("span").click(
+        function() {
+          $(this).parent().remove();
+        }
+      );
 
     }
   );
@@ -37,10 +45,10 @@ $(document).ready(function() {
 
 
   // Al click della X l'utente cancella l'articolo selezionato
-  $("span").click(
-    function() {
-      $(this).parent().remove();
-    }
-  );
+  // $("span").click(
+  //   function() {
+  //     $(this).parent().remove();
+  //   }
+  // );
 
 });
